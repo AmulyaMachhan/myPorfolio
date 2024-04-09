@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Amulya's Portfolio</title>
 
+  
   <script>
     let localS = localStorage.getItem('theme'),
         themeToSet = localS;
@@ -14,8 +15,7 @@
         if(!localS){
           themeToSet = window.matchMedia('(prefer-color-scheme: dark)').matches ? 'dark' : 'light'
         }
-
-        document.documentElement.setAttribute('data-theme' , themeToSet)
+        document.documentElement.setAttribute('data-theme' , themeToSet);
   </script>
 
   <!--
