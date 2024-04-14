@@ -141,7 +141,7 @@
   --navbar-text-focus: hsla(0, 0%, 23%, 0.7);
   --navbar-text-active :     hsl(35, 100%, 50%);
 
-  --info-title: hsl(45, 100%, 63%);
+  --info-title: hsl(0, 0%, 0%);
 
   --timeline : hsl(0, 0%, 92%);
   --timeline-bullet :  #f5f5f6;
